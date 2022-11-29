@@ -54,8 +54,8 @@ const Sample = () => {
     const filterResult = data.filter(
       (item) =>
         item.status.toLowerCase().includes(e.target.value.toLowerCase()) ||
-        item.type.toLowerCase().includes(e.target.value.toLowerCase()) ||
-        item.original_launch(e.target.value)
+        item.type.toLowerCase().includes(e.target.value.toLowerCase()) 
+       
     );
 
     setData(filterResult);
